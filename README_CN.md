@@ -4,6 +4,8 @@
 
 [英文文档](README.md)
 
+![demo](demo.jpeg)
+
 ### 如何使用
 
 ```shell
