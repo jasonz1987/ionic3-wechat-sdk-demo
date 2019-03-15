@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Wechat Demo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button full (click)="checkInstalled()" color="light">验证微信是否安装</button>
+  <h3>分享</h3>
+  <button ion-button full (click)="shareText()" color="light">分享文本</button>
+
+  <button ion-button full (click)="shareLink()" color="light">分享链接</button>
+
+  <button ion-button full (click)="shareImage()" color="light">分享图片</button>
+
+  <button ion-button full (click)="shareMusic()" color="light">分享音乐</button>
+
+  <button ion-button full (click)="shareVideo()" color="light">分享视频</button>
+  <h3>小程序</h3>
+  <button ion-button full (click)="shareMini()" color="light">分享小程序</button>
+
+  <button ion-button full (click)="openMini()" color="light">打开小程序</button>
+  <h3>登录</h3>
+  <button ion-button full (click)="auth()" color="light">微信登录</button>
+  <h3>支付</h3>
+  <button ion-button full (click)="pay()" color="light">支付0.01元</button>
+</ion-content>
