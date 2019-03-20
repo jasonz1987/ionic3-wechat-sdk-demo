@@ -122,7 +122,7 @@ export class HomePage {
           path: "pages/logs/logs", // 小程序的页面路径
           hdImageData: "https://www.jason-z.com/storage/test_image.jpg", // 程序新版本的预览图二进制数据 不超过128kb 支持 地址 base64 temp
           withShareTicket: true, // 是否使用带shareTicket的分享
-          miniprogramType: 2 
+          miniprogramType: Wechat.Mini.PREVIEW
         }
       },
       scene: Wechat.Scene.SESSION
@@ -137,7 +137,7 @@ export class HomePage {
     var params = {
       userName: 'gh_745127d80c0f', // userName
       path: 'pages/logs/logs', // open mini program page
-      miniprogramType: 2 // Developer version, trial version, and official version are available for selection
+      miniprogramType: Wechat.Mini.PREVIEW // Developer version, trial version, and official version are available for selection
     };
     
     Wechat.openMiniProgram(params,function(data){
