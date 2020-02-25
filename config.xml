@@ -2,7 +2,7 @@
 <widget id="com.jasonz.wechatdemo" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ionic3-wechat-sdk-demo</name>
     <description>ionic3 wechat sdk demo</description>
-    <author email="ccnuzxg@gmail.com" href="http://ionicframework.com/">By jason.z</author>
+    <author email="ccnuzxg@gmail.com" href="http://ionicframework.com/">By Jason.z</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -82,12 +82,5 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^3.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <allow-navigation href="http://192.168.2.217:8101" />
-    <allow-navigation href="http://192.168.1.10:8100" />
-    <allow-navigation href="http://192.168.1.10:8101" />
-    <allow-navigation href="http://192.168.1.10:8102" />
-    <plugin name="cordova-plugin-wechat" spec="~2.7.1">
-        <variable name="WECHATAPPID" value="wxac31b5ac3e65915a" />
-    </plugin>
-    <engine name="android" spec="~6.1.2" />
+
 </widget>

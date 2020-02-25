@@ -23,7 +23,6 @@
     "@ionic-native/core": "~4.18.0",
     "@ionic-native/splash-screen": "~4.18.0",
     "@ionic-native/status-bar": "~4.18.0",
-    "@ionic-native/wechat": "^4.20.0",
     "@ionic/storage": "2.2.0",
     "ionic-angular": "3.9.3",
     "ionicons": "3.0.0",
@@ -35,5 +34,8 @@
     "@ionic/app-scripts": "3.2.1",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {}
+  }
 }

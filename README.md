@@ -1,6 +1,6 @@
 ### About
 
-this is a ionic3 demo for [`cordova-plugin-wechat`]((https://github.com/xu-li/cordova-plugin-wechat))
+this project is a ionic3 demo for [`cordova-plugin-wechat`]((https://github.com/xu-li/cordova-plugin-wechat))
 
 [中文文档](README_CN.md)
 
@@ -8,13 +8,44 @@ this is a ionic3 demo for [`cordova-plugin-wechat`]((https://github.com/xu-li/co
 
 ### Usage
 
+1. Download
+
 ```shell
 git clone https://github.com/jasonz1987/ionic3-wechat-sdk-demo
-cd ionic3-wechat-sdk-demo
+```
+
+2. Install dependency package
+
+```shell
 npm install
+```
+
+3. Modify package in  `config.xml`
+
+4. Install the plugin and use the WeChat AppID  withe same bundle id.
+
+```shell
 ionic cordova plugin add cordova-plugin-wechat --variable wechatappid=wxxxxxxx
-ionic cordova add platform android
-ionic cordova add platform ios
+```
+
+5. Add platform
+
+```shell
+ionic cordova platform add android
+```
+
+```shell
+ionic cordova platform add ios
+```
+
+6. Run and debug
+
+```shell
+ionic cordova run android
+```
+
+```shell
+ionic cordova run ios
 ```
 
 ### Course
